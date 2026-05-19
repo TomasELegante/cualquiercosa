@@ -1,0 +1,217 @@
+2026-05-18T04:15:16.752-04:00  INFO 15300 --- [session-service] [main] c.e.s.SessionServiceApplication          : Starting SessionServiceApplication using Java 21.0.10 with PID 15300 (C:\Users\Lenovo\IdeaProjects\session-service\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\session-service)
+2026-05-18T04:15:16.756-04:00 DEBUG 15300 --- [session-service] [main] c.e.s.SessionServiceApplication          : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-05-18T04:15:16.759-04:00  INFO 15300 --- [session-service] [main] c.e.s.SessionServiceApplication          : The following 1 profile is active: "h2"
+2026-05-18T04:15:19.340-04:00  INFO 15300 --- [session-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-18T04:15:19.506-04:00  INFO 15300 --- [session-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 1 JPA repository interface.
+2026-05-18T04:15:20.650-04:00  INFO 15300 --- [session-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-05-18T04:15:20.660-04:00  INFO 15300 --- [session-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-18T04:15:20.661-04:00  INFO 15300 --- [session-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-18T04:15:20.727-04:00  INFO 15300 --- [session-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-18T04:15:20.727-04:00  INFO 15300 --- [session-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3913 ms
+2026-05-18T04:15:20.773-04:00  INFO 15300 --- [session-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-18T04:15:21.636-04:00  INFO 15300 --- [session-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db_sessions user=SA
+2026-05-18T04:15:21.640-04:00  INFO 15300 --- [session-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-18T04:15:21.666-04:00  INFO 15300 --- [session-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db_sessions'
+2026-05-18T04:15:21.960-04:00  INFO 15300 --- [session-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-18T04:15:22.112-04:00  INFO 15300 --- [session-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-18T04:15:22.224-04:00  INFO 15300 --- [session-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-18T04:15:22.960-04:00  INFO 15300 --- [session-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-18T04:15:23.106-04:00  WARN 15300 --- [session-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-18T04:15:27.078-04:00  INFO 15300 --- [session-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-18T04:15:27.277-04:00  INFO 15300 --- [session-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-18T04:15:29.561-04:00  WARN 15300 --- [session-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-18T04:15:30.730-04:00  INFO 15300 --- [session-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-05-18T04:15:30.755-04:00  INFO 15300 --- [session-service] [main] c.e.s.SessionServiceApplication          : Started SessionServiceApplication in 14.693 seconds (process running for 15.542)
+2026-05-18T04:37:01.609-04:00  INFO 15300 --- [session-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-18T04:37:01.614-04:00  INFO 15300 --- [session-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-18T04:37:01.617-04:00  INFO 15300 --- [session-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-18T13:45:35.347-04:00  INFO 2488 --- [session-service] [main] c.e.s.SessionServiceApplication          : Starting SessionServiceApplication using Java 21.0.10 with PID 2488 (C:\Users\Lenovo\IdeaProjects\session-service\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\session-service)
+2026-05-18T13:45:35.353-04:00 DEBUG 2488 --- [session-service] [main] c.e.s.SessionServiceApplication          : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-05-18T13:45:35.355-04:00  INFO 2488 --- [session-service] [main] c.e.s.SessionServiceApplication          : The following 1 profile is active: "h2"
+2026-05-18T13:45:36.749-04:00  INFO 2488 --- [session-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-18T13:45:36.857-04:00  INFO 2488 --- [session-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2026-05-18T13:45:37.700-04:00  INFO 2488 --- [session-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-05-18T13:45:37.720-04:00  INFO 2488 --- [session-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-18T13:45:37.721-04:00  INFO 2488 --- [session-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-18T13:45:37.849-04:00  INFO 2488 --- [session-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-18T13:45:37.850-04:00  INFO 2488 --- [session-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2354 ms
+2026-05-18T13:45:37.909-04:00  INFO 2488 --- [session-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-18T13:45:38.299-04:00  INFO 2488 --- [session-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db_sessions user=SA
+2026-05-18T13:45:38.301-04:00  INFO 2488 --- [session-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-18T13:45:38.319-04:00  INFO 2488 --- [session-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db_sessions'
+2026-05-18T13:45:38.542-04:00  INFO 2488 --- [session-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-18T13:45:38.677-04:00  INFO 2488 --- [session-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-18T13:45:38.753-04:00  INFO 2488 --- [session-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-18T13:45:39.222-04:00  INFO 2488 --- [session-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-18T13:45:39.300-04:00  WARN 2488 --- [session-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-18T13:45:40.993-04:00  INFO 2488 --- [session-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-18T13:45:41.070-04:00  INFO 2488 --- [session-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-18T13:45:41.975-04:00  WARN 2488 --- [session-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-18T13:45:42.548-04:00  INFO 2488 --- [session-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-05-18T13:45:42.560-04:00  INFO 2488 --- [session-service] [main] c.e.s.SessionServiceApplication          : Started SessionServiceApplication in 8.395 seconds (process running for 10.227)
+2026-05-18T13:48:04.739-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-18T13:48:04.739-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-18T13:48:04.742-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-18T13:48:04.819-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-2] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T13:48:56.975-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-3] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T13:49:08.893-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-4] c.e.s.service.SessionService             : Iniciando sesión - userId: 1, stationId: 4
+2026-05-18T13:49:11.521-04:00  WARN 2488 --- [session-service] [http-nio-8082-exec-4] c.e.s.service.SessionService             : Usuario ya tiene sesión activa: ID=1
+2026-05-18T13:49:11.532-04:00 ERROR 2488 --- [session-service] [http-nio-8082-exec-4] c.e.s.exception.GlobalExceptionHandler   : Excepción no capturada
+
+org.springframework.web.server.ResponseStatusException: 409 CONFLICT "El usuario ya tiene una sesión activa"
+	at com.example.sessionservice.service.SessionService.lambda$startSession$2(SessionService.java:76) ~[classes/:na]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at com.example.sessionservice.service.SessionService.startSession(SessionService.java:74) ~[classes/:na]
+	at com.example.sessionservice.controller.SessionController.startSession(SessionController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.16.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.16.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-18T13:50:24.128-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-6] c.e.s.service.SessionService             : Iniciando sesión - userId: 4, stationId: 4
+2026-05-18T13:50:24.464-04:00 ERROR 2488 --- [session-service] [http-nio-8082-exec-6] c.e.sessionservice.client.UserClient     : Usuario no encontrado con id: 4
+2026-05-18T13:50:24.464-04:00  WARN 2488 --- [session-service] [http-nio-8082-exec-6] c.e.s.service.SessionService             : Usuario no existe: ID=4
+2026-05-18T13:50:24.464-04:00 ERROR 2488 --- [session-service] [http-nio-8082-exec-6] c.e.s.exception.GlobalExceptionHandler   : Excepción no capturada
+
+org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "El usuario con id 4 no existe"
+	at com.example.sessionservice.service.SessionService.startSession(SessionService.java:57) ~[classes/:na]
+	at com.example.sessionservice.controller.SessionController.startSession(SessionController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:254) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:182) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.16.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.1.jar:6.1.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.16.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.1.jar:6.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.16.jar:10.1.16]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-18T13:57:32.737-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-8] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T13:57:33.483-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-9] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T13:57:52.916-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-10] c.e.s.service.SessionService             : Iniciando sesión - userId: 4, stationId: 4
+2026-05-18T13:57:53.427-04:00  INFO 2488 --- [session-service] [http-nio-8082-exec-10] c.e.s.service.SessionService             : Sesión iniciada exitosamente: ID=4
+2026-05-18T13:58:02.237-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-1] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T13:58:13.141-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-2] c.e.s.service.SessionService             : Buscando sesión con id: 4
+2026-05-18T13:58:14.169-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-3] c.e.s.service.SessionService             : Buscando sesión con id: 4
+2026-05-18T13:58:19.968-04:00 DEBUG 2488 --- [session-service] [http-nio-8082-exec-4] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T14:24:47.556-04:00  INFO 2488 --- [session-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-18T14:24:47.567-04:00  INFO 2488 --- [session-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-18T14:24:47.570-04:00  INFO 2488 --- [session-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-18T14:29:43.140-04:00  INFO 18264 --- [session-service] [main] c.e.s.SessionServiceApplication          : Starting SessionServiceApplication using Java 21.0.10 with PID 18264 (C:\Users\Lenovo\IdeaProjects\session-service\target\classes started by Lenovo in C:\Users\Lenovo\IdeaProjects\session-service)
+2026-05-18T14:29:43.143-04:00 DEBUG 18264 --- [session-service] [main] c.e.s.SessionServiceApplication          : Running with Spring Boot v3.2.0, Spring v6.1.1
+2026-05-18T14:29:43.144-04:00  INFO 18264 --- [session-service] [main] c.e.s.SessionServiceApplication          : The following 1 profile is active: "h2"
+2026-05-18T14:29:44.326-04:00  INFO 18264 --- [session-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-18T14:29:44.424-04:00  INFO 18264 --- [session-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2026-05-18T14:29:45.362-04:00  INFO 18264 --- [session-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-05-18T14:29:45.380-04:00  INFO 18264 --- [session-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-18T14:29:45.381-04:00  INFO 18264 --- [session-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2026-05-18T14:29:45.564-04:00  INFO 18264 --- [session-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-18T14:29:45.566-04:00  INFO 18264 --- [session-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2325 ms
+2026-05-18T14:29:45.671-04:00  INFO 18264 --- [session-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-18T14:29:46.085-04:00  INFO 18264 --- [session-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:db_sessions user=SA
+2026-05-18T14:29:46.089-04:00  INFO 18264 --- [session-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-18T14:29:46.109-04:00  INFO 18264 --- [session-service] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:db_sessions'
+2026-05-18T14:29:46.367-04:00  INFO 18264 --- [session-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-18T14:29:46.429-04:00  INFO 18264 --- [session-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2026-05-18T14:29:46.475-04:00  INFO 18264 --- [session-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-18T14:29:46.727-04:00  INFO 18264 --- [session-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-18T14:29:46.787-04:00  WARN 18264 --- [session-service] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-18T14:29:47.864-04:00  INFO 18264 --- [session-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-18T14:29:47.901-04:00  INFO 18264 --- [session-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-18T14:29:48.522-04:00  WARN 18264 --- [session-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-18T14:29:49.057-04:00  INFO 18264 --- [session-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2026-05-18T14:29:49.064-04:00  INFO 18264 --- [session-service] [main] c.e.s.SessionServiceApplication          : Started SessionServiceApplication in 6.929 seconds (process running for 8.222)
+2026-05-18T14:31:15.830-04:00  INFO 18264 --- [session-service] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-18T14:31:15.830-04:00  INFO 18264 --- [session-service] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-18T14:31:15.834-04:00  INFO 18264 --- [session-service] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-05-18T14:31:15.894-04:00 DEBUG 18264 --- [session-service] [http-nio-8082-exec-1] c.e.s.controller.SessionController       : GET /api/sessions
+2026-05-18T14:31:15.894-04:00 DEBUG 18264 --- [session-service] [http-nio-8082-exec-1] c.e.s.service.SessionService             : Obteniendo todas las sesiones
+2026-05-18T14:32:28.564-04:00  INFO 18264 --- [session-service] [http-nio-8082-exec-6] c.e.s.controller.SessionController       : POST /api/sessions - userId: 4
+2026-05-18T14:32:28.564-04:00  INFO 18264 --- [session-service] [http-nio-8082-exec-6] c.e.s.service.SessionService             : Iniciando sesión - userId: 4, stationId: 4
+2026-05-18T14:32:29.274-04:00  INFO 18264 --- [session-service] [http-nio-8082-exec-6] c.e.s.service.SessionService             : Sesión iniciada exitosamente: ID=4
+2026-05-18T15:14:49.767-04:00  INFO 18264 --- [session-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-18T15:14:49.779-04:00  INFO 18264 --- [session-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-18T15:14:49.783-04:00  INFO 18264 --- [session-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

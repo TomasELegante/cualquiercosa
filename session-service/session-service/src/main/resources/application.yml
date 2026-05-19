@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: session-service
+  profiles:
+    active: h2
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8082
+
+logging:
+  level:
+    root: INFO
+    com.example.sessionservice: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%-5level] %logger{0} - %msg%n"
+  file:
+    name: logs/session-service.log
